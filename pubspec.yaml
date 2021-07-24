@@ -21,7 +21,10 @@ dependencies:
   firebase_core: ^1.4.0
   firebase_auth: ^3.0.1
   google_sign_in: ^5.0.5
-  
+
+  injectable: ^1.4.1
+  get_it: ^7.2.0
+
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -30,9 +33,13 @@ dev_dependencies:
   
   freezed: ^0.14.3
   build_runner: ^2.0.6
+  injectable_generator: ^1.4.1
+
+  lint: ^1.5.3
 
 dependency_overrides:
   meta: ^1.7.0
+  analyzer: ^2.0.0
 
 flutter:
   uses-material-design: true
